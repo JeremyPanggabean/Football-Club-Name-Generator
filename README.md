@@ -15,7 +15,7 @@ This Python project is designed to generate creative, professional, and unique f
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/JeremyPanggabean/Football-Club-Name-Generator.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -31,7 +31,7 @@ This Python project is designed to generate creative, professional, and unique f
 To run the program, use the following command:
 
 ```bash
-python main.py
+python football_club_name_generator.py
 ```
 
 Follow the on-screen prompts to generate and save your favorite football club names.
