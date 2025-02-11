@@ -19,7 +19,7 @@ This Python project is designed to generate creative, professional, and unique f
    ```
 2. Navigate to the project directory:
    ```bash
-   cd football-club-name-generator
+   cd Football-Club-Name-Generator
    ```
 3. Install the required package:
    ```bash
@@ -36,24 +36,34 @@ python football_club_name_generator.py
 
 Follow the on-screen prompts to generate and save your favorite football club names.
 
-### Example
+### Example of from the program
 
 ```
-🏠 Enter city name: Paris
-🎨 Enter primary color: Red
-🐅 Enter mascot (animal/symbol): Tiger
-💥 Enter powerful word: Blaze
+🏠 Enter city name: madrid
+🎨 Enter primary color: white
+🐅 Enter mascot (animal/symbol): dragon
+💥 Enter powerful word: club
+
 Choose name style:
 1. Modern
 2. Classic
 3. Mythical
 4. Futuristic
-Enter style number (1-4): 1
+Enter style number (1-4): 2
+
+🌀 Generating Football Club names...
+
 ✨ Top 5 Professional Club Names ✨
-1. 🦅 Paris Ultra Blaze 🦅
-2. ⚡ Red Tiger Club ⚡
-...
+1. 🐉 madrid club City 🐉
+2. 🐉 madrid white dragon United 🐉
+3. 🐉 madrid white dragon FC 🐉
+4. 🐉 madrid club FC 🐉
+5. 🐉 madrid white dragon City 🐉
+
 💾 Save any names to favorites? (y/n): y
-Enter numbers to save (e.g., 1 3 5): 1
-⭐ Your favorite Football Club Name: 🦅 Paris Ultra Blaze 🦅
+Enter numbers to save (e.g., 1 3 5): 3
+
+🎉 Generation complete!
+⭐ Your favorite Football Club Names: 🐉 madrid white dragon FC 🐉
+⚽ Thank you for using Football Club Name Generator! ⚽
 ```
