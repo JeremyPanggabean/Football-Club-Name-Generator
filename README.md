@@ -57,12 +57,3 @@ Enter style number (1-4): 1
 Enter numbers to save (e.g., 1 3 5): 1
 ⭐ Your favorite Football Club Name: 🦅 Paris Ultra Blaze 🦅
 ```
-
-### Requirements
-
-- Python 3.7+
-- `colorama==0.4.6`
-
-### License
-
-This project is licensed under the MIT License. Feel free to contribute and share your feedback!
