@@ -119,7 +119,7 @@ def main():
         if styled_name not in names:
             names.append(styled_name)
 
-    # Menampilkan hasil dengan animasi
+    # Showing output with the animation
     print(f"\n{Fore.GREEN}✨ Top 5 Professional Club Names ✨")
     for i, name in enumerate(names, 1):
         time.sleep(0.5)
