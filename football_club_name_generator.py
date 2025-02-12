@@ -4,7 +4,7 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-# Data tambahan untuk generasi nama profesional
+# Data for creating Football Club Name
 SUFFIXES = ["FC", "United", "City", "Athletic", "Club", "Atletico", "SC", "Rovers", "Wanderers", "Dynamo", "Alliance"]
 EMOJIS = {
     'animal': {
@@ -62,7 +62,7 @@ def generate_name(user_inputs, style):
         f"{user_inputs['animal']} {user_inputs['powerful_word']} FC"
     ]
 
-    # Penyesuaian gaya
+    # Adjust the style
     if style == 'Classic':
         base = random.choice(formats[:2])
         return f"{base} {random.choice(['FC', 'United', 'City'])}"
@@ -84,10 +84,10 @@ def add_emojis(name, animal):
 
 
 def main():
-    # Animasi pembuka
+    # Welcome animation
     display_welcome_animation()
 
-    # Input pengguna dengan validasi
+    # User input with validation
     user_inputs = {}
     while True:
         user_inputs['city'] = input(f"\n{Fore.CYAN}🏠 Enter city name: {Style.RESET_ALL}")
@@ -105,10 +105,10 @@ def main():
         user_inputs['powerful_word'] = input(f"{Fore.RED}💥 Enter powerful word: {Style.RESET_ALL}")
         if validate_input(user_inputs['powerful_word']): break
 
-    # Pemilihan gaya
+    # Choose style
     style = get_style_choice()
 
-    # Generasi nama
+    # Generate Football Club Name
     print(f"\n{Fore.MAGENTA}🌀 Generating Football Club names...")
     time.sleep(1)
 
@@ -125,7 +125,7 @@ def main():
         time.sleep(0.5)
         print(f"{Fore.YELLOW}{i}. {Fore.WHITE}{name}")
 
-    # Fitur tambahan: Simpan favorit
+    # Feature Extension: Save Favorites Football Club Name
     favorites = []
     choice = input(f"\n{Fore.CYAN}💾 Save any names to favorites? (y/n): ").lower()
     if choice == 'y':
@@ -137,7 +137,7 @@ def main():
             except (ValueError, IndexError):
                 print(f"{Fore.RED}Invalid input. Please try again.")
 
-    # Penutup
+    # Closing Ouput
     print(f"\n{Fore.MAGENTA}🎉 Generation complete!")
     if favorites:
         print(f"{Fore.CYAN}⭐ Your favorite Football Club Names: {', '.join(favorites)}")
